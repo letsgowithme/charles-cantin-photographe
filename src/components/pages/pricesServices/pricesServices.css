@@ -1,0 +1,58 @@
+@media screen and (min-width: 375px) {
+  body {
+    scroll-behavior: auto;
+    overflow-y: visible;
+  }
+  
+  h3,
+  p {
+    color: var(--bg-darkblue);
+  }
+  .prices_services_page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .pages-bg {
+    display: block;
+    height: 100vh;
+  }
+  .page-title {
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10%;
+  }
+  
+  
+  .prices-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0;
+    position: absolute;
+    top: 15%;
+    /* margin-bottom: 2em; */
+  }
+  .prices-item {
+    margin: 15px;
+  }
+  
+}
+@media screen and (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+  .pages-bg {
+    display: block;
+  }
+  
+  .prices-title {
+    font-size: 3em;
+  }
+  .prices-container {
+    border-radius: 10px;
+    background-color: transparent;
+  }
+}
